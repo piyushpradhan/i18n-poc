@@ -379,7 +379,7 @@ export default function Dashboard() {
                           {t("order.status.declined")}
                         </DropdownMenuCheckboxItem>
                         <DropdownMenuCheckboxItem>
-                          {t("order.status.refunded ")}
+                          {t("order.status.refunded")}
                         </DropdownMenuCheckboxItem>
                       </DropdownMenuContent>
                     </DropdownMenu>
@@ -433,11 +433,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Sale
+                              {t("order.type.sale")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="secondary">
-                                Fulfilled
+                                {t("order.status.fulfilled")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
@@ -455,11 +455,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Refund
+                              {t("order.status.refunded")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="outline">
-                                Declined
+                                {t("order.status.declined")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
@@ -477,11 +477,11 @@ export default function Dashboard() {
                             </div>
                           </TableCell>
                           <TableCell className="hidden sm:table-cell">
-                            Sale
+                            {t('order.type.sale')}
                           </TableCell>
                           <TableCell className="hidden sm:table-cell">
                             <Badge className="text-xs" variant="secondary">
-                              Fulfilled
+                              {t('order.status.fulfilled')}
                             </Badge>
                           </TableCell>
                           <TableCell className="hidden md:table-cell">
@@ -497,11 +497,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Subscription
+                              {t("order.type.subscription")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="secondary">
-                                Fulfilled
+                                {t("order.status.fulfilled")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
@@ -519,11 +519,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Sale
+                              {t("order.type.sale")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="secondary">
-                                Fulfilled
+                                {t("order.status.fulfilled")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
@@ -541,11 +541,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Sale
+                              {t("order.type.sale")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="secondary">
-                                Fulfilled
+                                {t("order.status.fulfilled")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
@@ -563,11 +563,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Refund
+                              {t("order.status.refunded")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="outline">
-                                Declined
+                                {t("order.status.declined")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
@@ -585,11 +585,11 @@ export default function Dashboard() {
                               </div>
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
-                              Sale
+                              {t("order.type.sale")}
                             </TableCell>
                             <TableCell className="hidden sm:table-cell">
                               <Badge className="text-xs" variant="secondary">
-                                Fulfilled
+                                {t("order.status.fulfilled")}
                               </Badge>
                             </TableCell>
                             <TableCell className="hidden md:table-cell">
